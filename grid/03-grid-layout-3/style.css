@@ -13,10 +13,15 @@
   font-family: Helvetica;
   font-weight: bold;
   color: white;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 4px;
 }
 
 .header {
   background-color: #393f4d;
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 .logo {
@@ -26,6 +31,7 @@
 }
 
 .menu ul {
+  display: grid;
 }
 
 .menu ul,
@@ -35,6 +41,8 @@
 
 .sidebar {
   background-color: #FF7755;
+  display: grid;
+  gap: 50px;
 }
 
 .sidebar .photo {
@@ -60,6 +68,7 @@
 }
 
 .nav ul {
+  display: grid;
 }
 
 .nav ul li {
